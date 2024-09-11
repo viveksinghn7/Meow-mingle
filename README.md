@@ -26,7 +26,7 @@ It aims to help cats find their perfect match, fostering feline friendships and 
 </ul>
 
 <h2>🚀 Deployment</h2>
-The project is deployed on GitHub Pages, making it easily accessible and shareable. You can visit the live site here --> <a href="https://viveksinghn7.github.io/MeowMingle/">MeowMingle</a>
+The project is deployed on GitHub Pages, making it easily accessible and shareable. You can visit the live site here --> <a href="https://viveksinghn7.github.io/MeowMingle/">https://viveksinghn7.github.io/MeowMingle</a>
 
 <h2>🤝 Contributing</h2>
 We welcome contributions from the community. If you have any suggestions or improvements, feel free to fork the repository and submit a pull request.
