@@ -26,7 +26,7 @@ It aims to help cats find their perfect match, fostering feline friendships and 
 </ul>
 
 <h2>🚀 Deployment</h2>
-<p>The project is deployed on GitHub Pages, making it easily accessible and shareable. You can visit the live site here. ⬇️</p>
+<p>The project is deployed on GitHub Pages, making it easily accessible and shareable. You can visit the live site here. ↙️</p>
 🔗<a href="https://viveksinghn7.github.io/MeowMingle/"> viveksinghn7.github.io/MeowMingle</a>
 
 <h2>🤝 Contributing</h2>
@@ -36,5 +36,4 @@ We welcome contributions from the community. If you have any suggestions or impr
 <ul>
   <li>Special thanks to all the cat lovers including me who inspired this project.</li>
   <li>Inspired by Kittynip.app and Tinder.com.</li>
-  <li>Made with ❤️ by Viveksingh Negi.</li>
-</ul>
+  </ul>
