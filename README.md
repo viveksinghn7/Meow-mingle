@@ -14,7 +14,7 @@ It aims to help cats find their perfect match, fostering feline friendships and 
 <p>MeowMingle offers three pricing plans to cater to different needs:</p>
 <ul>
 <li><strong>Free Plan:</strong> ₹0 per month</li>
-<li><strong>Standard Plan (Most Popular):</strong> ₹199 per month</li>
+<li><strong>Standard Plan:</strong> ₹199 per month</li>
 <li><strong>Premium Plan:</strong> ₹499 per month</li>
 </ul>
 
@@ -26,14 +26,15 @@ It aims to help cats find their perfect match, fostering feline friendships and 
 </ul>
 
 <h2>🚀 Deployment</h2>
-The project is deployed on GitHub Pages, making it easily accessible and shareable. You can visit the live site here -->
-<ul><li><a href="https://viveksinghn7.github.io/MeowMingle/">https://viveksinghn7.github.io/MeowMingle</a></li></ul>
+<p>The project is deployed on GitHub Pages, making it easily accessible and shareable. You can visit the live site here. ⬇️</p>
+🔗<a href="https://viveksinghn7.github.io/MeowMingle/"> viveksinghn7.github.io/MeowMingle</a>
 
 <h2>🤝 Contributing</h2>
 We welcome contributions from the community. If you have any suggestions or improvements, feel free to fork the repository and submit a pull request.
 
 <h2>🙏 Acknowledgements</h2>
 <ul>
-  <li>Special thanks to all the cat lovers including me 😎 who inspired this project.</li>
+  <li>Special thanks to all the cat lovers including me who inspired this project.</li>
+  <li>Inspired by Kittynip.app and Tinder.com.</li>
   <li>Made with ❤️ by Viveksingh Negi.</li>
 </ul>
