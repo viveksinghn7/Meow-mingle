@@ -145,13 +145,18 @@ li:last-child {
 
 .popular-pricing-box {
   background-color: black;
+  text-align: center;
   color: #FFF;
   padding-top: 1px;
+}
 
+.popular-pricing-heading {
+  padding-top: 1REM;
+  font-weight: bold;
 }
 
 .side-pricing-box {
-  padding-top: 4REM;
+  padding-top: 4.5REM;
 }
 
 /* Aim & Working Section */
