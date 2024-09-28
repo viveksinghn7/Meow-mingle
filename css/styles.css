@@ -1,3 +1,4 @@
+/* General Styles */
 body {
   font-family: "Montserrat", sans-serif;
 }
@@ -9,16 +10,17 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: 3.5REM;
+  font-size: 3.5rem;
 }
 
 h2 {
-  font-size: 3REM;
+  font-size: 3rem;
 }
 
 h5 {
   font-family: "Montserrat", sans-serif;
-  font-size: 2REM;
+  font-weight: 600;
+  font-size: 2rem;
   line-height: 1.5;
 }
 
@@ -28,7 +30,7 @@ p {
 }
 
 .big-heading {
-  padding-top: 2REM;
+  padding-top: 2rem;
 }
 
 li {
@@ -45,12 +47,12 @@ li:last-child {
 
 /* Navigation Bar */
 .navbar {
-  padding: 0 0 4.5REM;
+  padding: 0 0 4.5rem;
 }
 
 .navbar-brand {
   font-family: "Ubuntu", sans-serif;
-  font-size: 2.5REM;
+  font-size: 2.5rem;
   font-weight: bold;
 }
 
@@ -59,7 +61,7 @@ li:last-child {
 }
 
 .nav-link {
-  font-size: 1REM;
+  font-size: 1rem;
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
 }
@@ -69,10 +71,13 @@ li:last-child {
   margin: 5% 3% 5% 0;
 }
 
+a {
+  text-decoration: none;
+}
 /* Title Image */
 .title-image {
   width: 95%;
-  margin-left: 1.5REM;
+  margin-left: 1.5rem;
 }
 
 /* Feature Section */
@@ -88,7 +93,7 @@ li:last-child {
 
 .icon {
   color: #508C9B;
-  margin-bottom: 1REM;
+  margin-bottom: 1rem;
 }
 
 .icon:hover {
@@ -147,16 +152,18 @@ li:last-child {
   background-color: black;
   text-align: center;
   color: #FFF;
-  padding-top: 1px;
 }
 
 .popular-pricing-heading {
-  padding-top: 1REM;
+  padding: 2px;
+  margin-bottom: 0;
+  letter-spacing: 1.2px;
+  word-spacing: 0.5rem;
   font-weight: bold;
 }
 
 .side-pricing-box {
-  padding-top: 4.5REM;
+  padding-top: 4rem;
 }
 
 /* Aim & Working Section */
@@ -172,7 +179,11 @@ li:last-child {
 
 .work-body {
   text-align: left;
-  padding: 4REM 5REM 0 0;
+  padding: 4rem 5rem 0 0;
+}
+
+ol li {
+  border-right: none;
 }
 
 /* CTA Section */
@@ -186,8 +197,14 @@ li:last-child {
 .cta-heading {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
-  font-size: 3.5REM;
+  font-size: 3.5rem;
   line-height: 1.5;
+}
+
+.download-step {
+  margin: 5px;
+  font-weight: 600;
+  color: #8F8F8F;
 }
 
 /* Footer Section */
@@ -198,9 +215,8 @@ li:last-child {
 }
 
 .footer-icon {
-  color: black;
   margin: 15px 10px;
-  font-size: 1.7REM;
+  font-size: 1.7rem;
 }
 
 .footer-paragraph {
@@ -215,10 +231,182 @@ li:last-child {
   color: #FFF;
 }
 
-/* Media Query */
-@media (max-width: 1028px) {
 
+/* Media Queries */
+@media (max-width: 768px) {
   #home {
     text-align: center;
+  } 
+
+  .container-fluid {
+    padding: 3% 5%;
+  }
+
+  .navbar {
+    padding: 0 0 2.5rem;
+  }
+
+  .navbar-brand {
+    font-size: 2rem;
+  }
+
+  .nav-link {
+    font-size: 1.2rem;
+  }
+
+  .title-image {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  #features {
+    padding: 8% 5%;
+  }
+
+  .feature-box {
+    padding: 2%;
+  }
+
+  .testimonial-image {
+    width: 20%;
+  }
+
+  .carousel-item {
+    padding: 7% 5%;
+  }
+
+  #press {
+    padding: 1% 5%;
+  }
+
+  .press-logo {
+    width: 25%;
+  }
+
+  #pricing {
+    padding: 50px;
+  }
+
+  .pricing-table {
+    padding: 0 1% 0;
+  }
+
+  .popular-pricing-box {
+    padding-top: 1rem;
+  }
+
+  .premium-box {
+    padding: 0 27% 0;
+  }
+
+  #work {
+    padding: 5% 5%;
+  }
+
+  .work-image {
+    width: 100%;
+  }
+
+  .work-body {
+    padding: 2rem 2.5rem 0 0;
+  }
+
+  ol li {
+    border-right: none;
+  }
+
+  #cta {
+    padding: 30% 5%;
+  }
+
+  .cta-heading {
+    font-size: 2.5rem;
+  }
+
+  #footer {
+    padding: 3% 5%;
+  }
+}
+
+@media (max-width: 480px) {
+  #home {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h5 {
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+
+  .download-button {
+    font-size: 1rem;
+    margin: 5% 3% 5% 0;
+  }
+
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+
+  .nav-link {
+    font-size: 1rem;
+  }
+
+  .testimonial-image {
+    width: 30%;
+  }
+
+  em {
+    display: block;
+    padding-bottom: 10px;
+  }
+
+  .press-logo {
+    width: 30%;
+  }
+
+  #pricing {
+    padding: 1rem 1rem;
+  }
+
+  .pricing-col {
+    padding: 5% 7%;
+  }
+
+  .work-body {
+    font-size: 0.9rem;
+    text-align: justify;
+    padding: 1rem 1rem;
+  }
+
+  ol li {
+    border-right: none;
+  }
+
+  #cta {
+    padding: 25% 5%;
+  }
+
+  .cta-heading {
+    font-size: 2.5rem;
+  }
+
+  .footer-icon {
+    font-size: 2rem;
+  }
+
+  .footer-paragraph {
+    font-size: 0.8rem;
+  }
+
+  .no-wrap {
+    white-space: nowrap;
   }
 }
