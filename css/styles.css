@@ -380,6 +380,10 @@ ol li {
     padding: 5% 7%;
   }
 
+  #work {
+    padding-top: 3rem;
+  }
+
   .work-body {
     font-size: 0.9rem;
     text-align: justify;
@@ -391,7 +395,7 @@ ol li {
   }
 
   #cta {
-    padding: 25% 5%;
+    padding: 40% 5%;
   }
 
   .cta-heading {
