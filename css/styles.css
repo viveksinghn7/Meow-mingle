@@ -19,7 +19,6 @@ h2 {
 
 h5 {
   font-family: "Montserrat", sans-serif;
-  font-weight: 600;
   font-size: 2rem;
   line-height: 1.5;
 }
@@ -180,6 +179,11 @@ a {
 .work-body {
   text-align: left;
   padding: 4rem 5rem 0 0;
+}
+
+.work-text {
+  font-size: 1.6rem;
+  font-weight: 600;
 }
 
 ol li {
