@@ -233,10 +233,10 @@ ol li {
 
 
 /* Media Queries */
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   #home {
     text-align: center;
-  } 
+  }
 
   .container-fluid {
     padding: 3% 5%;
@@ -328,7 +328,7 @@ ol li {
   #home {
     text-align: center;
   }
-  
+
   h1 {
     font-size: 2.4rem;
   }
